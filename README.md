@@ -1,6 +1,31 @@
 # E-Commerce Back End
-An e-commerce backend built using Express &amp; Sequelize to interact with a MySQL database.
 
+## Descrtiption
+
+An e-commerce backend that allows a business owner to Create, Read, Update, and Delete information for their products. Products can have many Tags, but belong to only one category. This application follows RESTful API principles and can CRUD entries to the MySQL database. Built using Express &amp; Sequelize to interact with a MySQL database.
+
+## Insallation
+
+* Create the database schema by running the following from the MySQL shell:
+    - source schema.sql;
+* Seed the database by running the following from the command line:
+    - npm run seed
+* Start the server by running the following from the command line:
+    - npm start
+
+## Finished Product
+
+A video demonstration of this application's capabilities can by viewed at the link below:
+* [Video Demonstration](https://drive.google.com/file/d/1UpKpWESom8VHJnDTMfwqa4oEFHd5a-X0/view)
+
+## Technologies Used
+
+Built in Visual Studion with:
+* Node.js
+* MySQL
+* Express.js
+* Sequelize.js
+* npm
 
 ## User Story
 
@@ -25,3 +50,11 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
+
+## Contact Me
+
+Questions, comments, or concerns about this project? Check out my Github or contact me via e-mail.
+
+* GitHub: [spreston4](https://github.com/spreston4)
+
+* E-mail: [sam.preston11@gmail.com](mailto:sam.preston11@gmail.com)
